@@ -1,0 +1,217 @@
+/*
+	@author Kanika Danke
+*/
+
+
+/*
+	Shared Styles
+ */
+
+a {
+	text-decoration: none !important;
+}
+
+@font-face {
+	font-family: "GarcesFont";
+	src: url(resources/fonts/MyriadProRegular.ttf);
+}
+
+* {
+	font-family: "GarcesFont";
+}
+
+.whiteFont {
+	color: white;
+}
+
+.redFont {
+	color: #ec2327;
+}
+
+.redBackground {
+	background-color: #ec2327;
+}
+
+.orangeBackground {
+	background-color: #f69b4c;
+}
+
+.boldFont {
+	font-weight: bold;
+}
+
+.margin10top {
+	margin-top: 10%;
+}
+
+.margin20Left {
+	margin-left: 20%;
+}
+
+.margin10Bottom {
+	margin-bottom: 10%;
+}
+
+/*
+	Section 1.Navigation Bar Styles
+*/
+
+
+.magrin1{
+	margin: 1%;
+}
+
+
+.align-items-center {
+	-ms-flex-align: center!important;
+	align-items: center!important;
+}
+
+
+.navigationBar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.459);
+}
+
+ul li a {
+	color: white !important;
+}
+
+ul li a:hover {
+	color:#ec2327 !important;
+	background: url(resources/images/1.navigation/hover.png) no-repeat top;
+}
+
+.margin10right{
+	margin-right: 10%;
+}
+
+
+/*
+	Section 2. Header Styles
+*/
+
+.logo {
+	z-index: 500;
+	position: absolute;
+	top: 25%;
+	left: unset;
+}
+
+.carousal {
+	position: relative;
+}
+
+
+
+.carousal-image {
+	width: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	height: 50px;
+	width: 50px;
+	background-image: none;
+}
+
+.carousel-control-next-icon:after {
+	content: '>';
+	font-size: 55px;
+	color: white;
+}
+
+.carousel-control-prev-icon:after {
+	content: '<';
+	font-size: 55px;
+	color: white;
+}
+
+.carousel-control-next {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	position: absolute;
+	width: 80%;
+	top: 80%;
+	left: 10%;
+}
+
+.carousel-control-prev {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	position: absolute;
+	width: 80%;
+	top: 80%;
+	left: 5%;
+}
+
+.carousel-caption {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	position: absolute;
+	width: 80%;
+	top: 88.5%;
+	left: 8.5%;
+}
+
+/*
+	Section 3. Introduction Styles
+*/
+
+.learnMore {
+	alignment: center;
+	color: white;
+	background-color: #ec2327;
+}
+
+.zoom:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.zoom {
+	transition: transform .2s;
+}
+
+/*
+	Section 4.Feed Styles
+*/
+
+.lightRedBack {
+	background-color: #f42e32;
+}
+
+.exclamationBackground {
+	background: url(resources/images/4.feed/Exclamationpoint.png) no-repeat center;
+}
+
+.big30ptFont {
+	font-size: 30pt;
+}
+
+/*
+	Section 5.Footer Styles
+*/
+
+.margin5BottomTop {
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.margin2 {
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.margin2left {
+	margin-left: 2%;
+}
