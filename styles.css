@@ -2,13 +2,14 @@
 	@author Kanika Danke
 */
 
-
 /*
 	Shared Styles
  */
 
-a {
-	text-decoration: none !important;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "GarcesFont";
 }
 
 @font-face {
@@ -16,8 +17,8 @@ a {
 	src: url(resources/fonts/MyriadProRegular.ttf);
 }
 
-* {
-	font-family: "GarcesFont";
+a {
+	text-decoration: none !important;
 }
 
 .whiteFont {
@@ -52,27 +53,42 @@ a {
 	margin-bottom: 10%;
 }
 
+.margin5Left {
+	margin-left: 5%;
+}
+
+.magrin1 {
+	margin: 1%;
+}
+
+.margin5BottomTop {
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.margin2 {
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.margin2left {
+	margin-left: 2%;
+}
+
 /*
 	Section 1.Navigation Bar Styles
 */
 
-
-.magrin1{
-	margin: 1%;
+.navbar-items {
+	align-content: center;
+	width: 200%;
 }
-
-
-.align-items-center {
-	-ms-flex-align: center!important;
-	align-items: center!important;
-}
-
 
 .navigationBar {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	z-index: 10;
+	z-index: 12;
 	background-color: rgba(0, 0, 0, 0.459);
 }
 
@@ -81,21 +97,16 @@ ul li a {
 }
 
 ul li a:hover {
-	color:#ec2327 !important;
+	color: #ec2327 !important;
 	background: url(resources/images/1.navigation/hover.png) no-repeat top;
 }
-
-.margin10right{
-	margin-right: 10%;
-}
-
 
 /*
 	Section 2. Header Styles
 */
 
 .logo {
-	z-index: 500;
+	z-index: 10;
 	position: absolute;
 	top: 25%;
 	left: unset;
@@ -104,8 +115,6 @@ ul li a:hover {
 .carousal {
 	position: relative;
 }
-
-
 
 .carousal-image {
 	width: 100%;
@@ -166,6 +175,12 @@ ul li a:hover {
 	Section 3. Introduction Styles
 */
 
+.align-items-block {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+
 .learnMore {
 	alignment: center;
 	color: white;
@@ -201,17 +216,3 @@ ul li a:hover {
 /*
 	Section 5.Footer Styles
 */
-
-.margin5BottomTop {
-	margin-bottom: 5%;
-	margin-top: 5%;
-}
-
-.margin2 {
-	margin-bottom: 2%;
-	margin-top: 2%;
-}
-
-.margin2left {
-	margin-left: 2%;
-}
